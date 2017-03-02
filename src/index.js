@@ -1,4 +1,4 @@
-function zeros(expression) {
+module.exports = function zeros(expression) {
 	let expArr = expression.split('*');
 	let result = '';
 	let zerosCount = 0;
